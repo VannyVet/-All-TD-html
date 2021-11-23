@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit your profile</title>
+</head>
+<body>
+    <form action="/my-backend/profile " method="POST">
+       <table width="100%" cellspacing="20px"  cellpadding="0px"> 
+           <tr>
+               <td colspan="2" style="border:1px solid  black; background-color: grey;">
+                   <h1>Tell about yourself</h1>
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2" >
+                <h4 >Profile Information </h4>
+               </td>   
+           </tr>
+           <tr>
+               <td>
+                   <div> <b>Last Name</b> </div>
+                   <input type="text" style="width: 100%;">
+               </td>
+               <td>
+                   <div><b> First Name</b></div>
+                   <input type="text" style="width:100%">
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <div><b> Email</b></div>
+                   <input type="text" style="width: 100%;">
+               </td>
+               <td>
+                   <div><b>Phone</b></div>
+                   <input type="text" style="width: 100%;">
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2">
+                   <span>Gender</span>
+                    <input  name="gender" type="radio" value="male">Male
+                    <input name="gender" type="radio" value="female">Femal
+               </td>
+           </tr>
+           <tr>
+                <td>
+                    <h4>Current Address</h4>
+                </td>
+           </tr>
+           <table style="width: 100%;">
+            
+                <td >
+                    <select name="city" id="" style="width: 100%;">
+                        <option value=""disabled selected>Province/city</option>
+                        <option value="Phonm Penh">Phonm Penh</option>
+                        <option value="Battambang">Battambang</option>
+                        <option value="Simreap">Simreap</option>
+                        
+                        </select>
+                </td>
+                
+                 <td >
+                        <select name="City" id=""  style="width: 100%;">
+                            <option value=""disabled selected> City</option>
+                            <option value="Cambodia">Cambodia</option>
+                            <option value="Thailand">Thailand</option>
+                            <option value="Vitname">Vitnam</option>
+                            <option value="Laos">Laos</option>
+                        </select>
+                    
+                </td>
+                 <td>
+                        <input type="text" placeholder="Post Code" style="width: 100%;">
+                </td> 
+ 
+           
+           <tr>
+               <td colspan="3">
+                   <textarea name="text" id="" cols="30" rows="10" style="width: 100%;"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td colspan="2">
+                <h4>
+                    Skill <br>
+                </h4>
+                
+                    <input type="checkbox" name="skill" id="">Designing
+                    <input type="checkbox" name="skill" id="">Database management <br>
+                    <input type="checkbox" name="skill" id="">  Coding &nbsp;&nbsp;
+                    <input type="checkbox" name="skill" id="">Debug
+               </td>
+               <td>
+                   <h4>
+                       Languages <br>
+                   </h4>
+                   <input type="checkbox" name="skill" id="">English 
+                   <input type="checkbox" name="skill" id="">Chinese <br>
+                   <input type="checkbox" name="skill" id="">France
+               </td>
+           </tr>
+           <tr>
+                <td>
+                    <h4>Experiences</h4>
+                </td>
+           </tr>
+           <tr>
+               <td >
+                
+                    from <br><br>
+                    <input type="text"><br><br>
+                    <input type="text"><br><br>
+                    <input type="text"><br><br>
+                    <input type="text">
+               </td>
+               <td  >
+                   
+                    To <br><br>
+                   
+                    <input type="text"><br><br>
+                    <input type="text" ><br><br>
+                    <input type="text" ><br><br>
+                    <input type="text" >
+                   
+                    
+ 
+                   
+                  
+               </td>
+               <td >
+                   Description <br>
+                   
+                    <input type="text"><br><br>
+                    <input type="text"><br><br>
+                    <input type="text"><br><br>
+                    <input type="text">
+                  
+                  
+                  
+               </td>
+                 
+           </tr>
+           <tr>
+               <td>
+                   <h4>choose your profile photo</h4><br>
+                   <button>choose file</button> No file chosen <br><br>
+                   
+               </td>
+               
+           </tr>
+           <tr>
+               <td colspan="3">
+                <button  style="margin-left: 80%; color:white;background-color: blue">submit</button>
+               </td>
+           </tr>
+           
+           
+            
+                  
+  </table>   
+           
+           
+       </table>
+    </form>
+</body>
+</html>
