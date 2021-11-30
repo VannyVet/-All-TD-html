@@ -1,0 +1,121 @@
+body
+{
+    margin: 0px;
+}
+.home_container
+{
+    height: 100%;
+    position: relative;
+    
+}
+.about_me
+{
+    background-color: rgb(221, 147, 77);
+    margin-right:89%;
+    padding-left:3%;
+    color: white;
+}
+.client
+{
+    position: relative;
+}
+
+
+.sidebar
+{
+    width: 22%;
+    height: 100%;
+    background-color:white;
+    position: fixed;
+}
+.sidebar::after
+{
+    background-color:rgb(226, 226, 218);
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom:0px;
+    width: 6px;
+    height: 100%;
+
+}
+.sidebar img
+{
+    width: 30%;
+    border: 2px solid yellow;
+    border-radius:50%;
+    margin-top: 5%;
+
+}
+#nav
+{
+    
+     list-style-type:none;
+     text-align: center;
+     padding: 0px; 
+       
+}
+#nav li
+{
+    border-top: 1px solid black;
+    padding: 10px;
+    position: relative;
+      
+}
+#nav li.bottom
+{
+    border-bottom:1px solid black;
+}
+#nav a
+{
+    text-decoration: none;
+    color: black;
+}
+#nav li.active
+{
+    background-color: rgb(233, 233, 225);
+}
+li.active a:after
+{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom:0px;
+    width: 2px;
+    height: 100%;
+    padding: 0px 3px;
+
+}
+.me_container
+{
+    margin-left: 22%;
+}
+
+.shine
+{
+    margin-right: 0px;
+    width:120px;
+    padding: 25px;
+    background-color:rgb(233, 225, 225);
+    
+}
+.shine img
+{
+    border:1px  solid white;
+    border-radius: 50%;
+}
+.un_shine
+{
+    margin-right: 0px;
+    width:120px;
+     padding: 25px;
+    background-color:rgb(255, 251, 251)
+}
+.un_shine img
+{
+    border:1px  solid white;
+    border-radius: 50%;
+}

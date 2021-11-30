@@ -1,0 +1,110 @@
+body
+{
+    margin:0px;
+}
+.home_container
+{
+    position: relative;
+    height: 100%;
+}
+
+.sidebar
+{
+    width: 22%;
+    height: 100%;
+    background-color:white;
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar img
+{
+    width: 80px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    
+}
+.sidebar h4
+{
+    color: rgb(196, 183, 181);
+}
+.container
+{
+    background-image: url("../image/home_page_bg_2.jpeg");
+    height: 100%;
+    margin-left: 22%;
+    color: white;
+    height: 100vh;
+    position: relative;
+    
+}
+.container_mask
+{
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;  
+}
+.container_text
+{
+    position: absolute;
+    margin-left: 33%;
+    position: absolute;
+    font-family: oswald, Arial, Helvetica, sans-serif;
+}
+.container .user_name 
+{
+    font-size: 60px ;
+    margin:0px;
+    padding-top: 80px;
+}
+.container .user_role
+{
+    color: white;
+}
+#introduce
+{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+#nav 
+{
+    list-style-type: none;
+    text-align: center;
+    padding:0px;
+}
+#nav li
+{
+    padding: 10px;
+  border-top: 1px solid ;
+  position: relative;
+  
+
+}
+#nav li.active
+{
+    background-color: rgb(233, 233, 225);
+
+}
+#nav li.contact
+{
+    border-bottom: 1px solid black;
+}
+li.active a:after
+{
+    background-color: yellow;
+    display: block;
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom:0px;
+    width: 2px;
+    height: 100%;
+
+}
+#nav a
+{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
